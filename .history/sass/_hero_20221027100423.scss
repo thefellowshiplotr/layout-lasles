@@ -1,0 +1,15 @@
+.hero {
+  margin-top: 72px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-content {
+    max-width: 555px;
+  }
+  &-img {
+    position: relative;
+    transform: translate(90%, -40%);
+  }
+}

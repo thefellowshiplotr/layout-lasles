@@ -1,0 +1,21 @@
+.recommend {
+  background-color: #dddddd;
+  color: #4f5665;
+  padding: 24px 0;
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: #f53535;
+    display: inline;
+    text-align: center;
+    opacity: 0.75;
+  }
+  a:hover {
+    opacity: 1;
+  }
+}
+.footer-copyright {
+  color: inherit;
+  display: inline;
+  text-align: center;
+}

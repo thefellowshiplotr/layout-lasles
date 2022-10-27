@@ -1,0 +1,11 @@
+.network {
+  &-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  &-header {
+    margin-bottom: 60px;
+  }
+}

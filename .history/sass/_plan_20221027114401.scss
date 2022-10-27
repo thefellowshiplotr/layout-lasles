@@ -1,0 +1,22 @@
+.plan {
+  padding-bottom: 150px;
+  &-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-item {
+    padding: 79px 92px;
+    background: #ffffff;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    align-items: center;
+  }
+}

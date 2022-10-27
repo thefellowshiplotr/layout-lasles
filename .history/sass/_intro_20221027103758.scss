@@ -1,0 +1,20 @@
+.intro {
+  &-container {
+    background-color: #fff;
+    padding: 37px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    min-height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 30px 87px rgba($color: #0d1025, $alpha: 0.2);
+  }
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 0 36.5px;
+  }
+  .item:nth-child(2) {
+    border-left: 2px solid #eeeff2;
+    border-right: 2px solid #eeeff2;
+  }
+}

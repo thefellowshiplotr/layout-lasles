@@ -1,0 +1,16 @@
+.hero {
+  margin-top: 43px;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-content {
+    max-width: 555px;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  &-img {
+    transform: translate(90%, -40%);
+  }
+}

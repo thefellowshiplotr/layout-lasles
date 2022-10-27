@@ -1,0 +1,19 @@
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  flex-flow: row wrap
+  display: flex;
+  align-items: center;;
+}

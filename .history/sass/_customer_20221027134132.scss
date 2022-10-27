@@ -1,0 +1,22 @@
+.customer {
+  &-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-item {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  &-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

@@ -1,0 +1,14 @@
+.hero {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-content {
+    max-width: 555px;
+  }
+  &-img {
+    position: relative;
+    right: 0;
+  }
+}

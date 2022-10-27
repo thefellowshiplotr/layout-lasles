@@ -1,0 +1,16 @@
+.hero {
+  margin-top: 43px;
+  &-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+  }
+  &-content {
+    max-width: 555px;
+  }
+  &-img {
+    transform: translate(90%, -40%);
+  }
+}

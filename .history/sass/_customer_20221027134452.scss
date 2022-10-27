@@ -1,0 +1,26 @@
+.customer {
+  &-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-item {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 400px;
+    width: 100%;
+  }
+  &-top {
+    display: flex;
+    align-items: center;
+    gap: 0 21px;
+  }
+  &-comment {
+  }
+}

@@ -1,0 +1,18 @@
+.footer {
+  &-container {
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-gap: 0 126px;
+  }
+  &-column {
+    text-align: center;
+  }
+  &-links {
+    list-style: none;
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+  }
+}

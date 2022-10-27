@@ -1,0 +1,15 @@
+.network {
+  &-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  &-header {
+    margin-bottom: 150px;
+  }
+  .partner {
+    display: flex;
+    align-items: center;
+  }
+}

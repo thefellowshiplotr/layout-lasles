@@ -1,0 +1,13 @@
+.plan {
+  &-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  &-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
