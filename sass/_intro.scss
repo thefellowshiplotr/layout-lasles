@@ -1,7 +1,7 @@
 .intro {
   &-container {
     background-color: #fff;
-    // padding: 37px 0px;
+    padding: 37px 0px;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     min-height: 200px;
@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0 19.5px;
+    gap: 0 36.5px;
   }
   .item:nth-child(2) {
     border-left: 2px solid #eeeff2;
