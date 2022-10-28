@@ -9,6 +9,10 @@
   margin: 0 auto;
 }
 
+body {
+  font-family: "Rubik", sans-serif;
+}
+
 .button {
   color: #000;
   text-decoration: none;
@@ -19,10 +23,18 @@
   color: #fff;
 }
 
+.button-outline {
+  border: 1px solid #f53855;
+  border-radius: 50px;
+  padding: 13px 45px;
+}
+
 .header {
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 90px;
 }
 .header-container {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,8 +49,25 @@
 .menu-link {
   display: inline-block;
   text-decoration: none;
-  color: #000;
+  color: #4f5665;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.185;
   text-transform: capitalize;
+}
+.menu-link-auth {
+  font-weight: 500;
+  color: #0b132a;
+}
+.menu-auth {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  gap: 0 30px;
+}
+.menu-sign-up {
+  color: #f53855;
 }
 
 .hero {
@@ -60,7 +89,6 @@
 
 .intro-container {
   background-color: #fff;
-  padding: 37px 0px;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   min-height: 200px;
@@ -71,7 +99,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0 36.5px;
+  gap: 0 19.5px;
 }
 .intro .item:nth-child(2) {
   border-left: 2px solid #eeeff2;

@@ -13,7 +13,6 @@
     text-transform: capitalize;
     &-auth {
       font-weight: 500;
-      color: $heading-color;
     }
   }
   &-auth {
@@ -23,8 +22,5 @@
     align-items: center;
     list-style-type: none;
     gap: 0 30px;
-  }
-  &-sign-up {
-    color: $secondary-color;
   }
 }

@@ -6,25 +6,15 @@
   &-link {
     display: inline-block;
     text-decoration: none;
-    color: $text-color;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: calc(18.96 / 16);
+    color: #000;
     text-transform: capitalize;
-    &-auth {
-      font-weight: 500;
-      color: $heading-color;
-    }
   }
   &-auth {
     display: flex;
-    justify-content: flex-end;
+    // justify-content: space-between;
     // align-content: space-around;
     align-items: center;
     list-style-type: none;
-    gap: 0 30px;
-  }
-  &-sign-up {
-    color: $secondary-color;
+    // gap: 0 30px;
   }
 }
